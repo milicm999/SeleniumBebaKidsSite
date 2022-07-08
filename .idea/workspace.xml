@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a179258-a85a-45b0-a167-515e44e735d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestingBebaKids.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/setUpTestEnvironment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestingBebaKids.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestingBebaKids.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setUpTestEnvironment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setUpTestEnvironment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +33,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2BYvBeTz03ugG5jBkCbvcbi2yTS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -50,14 +45,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/milicm/Downloads/selenium-server-4.3.0.jar",
+    "last_opened_file_path": "C:/Users/milicm/IdeaProjects/SeleniumBebaKidsSite",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TestingBebaKids.testCart">
+  <component name="RunManager" selected="TestNG.TestingBebaKids.testShopingCard">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="SeleniumBebaKidsSite" />
@@ -88,8 +83,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestingBebaKids.testLogIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBebaKidsSite" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestingBebaKids" />
+      <option name="METHOD_NAME" value="testLogIn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingBebaKids.testShopingCard" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBebaKidsSite" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestingBebaKids" />
+      <option name="METHOD_NAME" value="testShopingCard" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestingBebaKids.testShopingCard" />
+        <item itemvalue="TestNG.TestingBebaKids.testLogIn" />
         <item itemvalue="TestNG.TestingBebaKids.testCart" />
         <item itemvalue="TestNG.TestingBebaKids" />
         <item itemvalue="Application.Main" />
@@ -119,22 +140,10 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/TestingBebaKids.java</url>
-          <line>23</line>
-          <properties class="TestingBebaKids" method="testCart">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(&quot;/html/body/div[2]/div/div&quot;)))" language="JAVA" />
+        <watch expression="wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(&quot;//img[contains(@src,'https://www.bebakids.com/files/files/Pop-Up-Leto-22-800x800px.jpg')]&quot;)))" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

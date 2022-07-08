@@ -32,7 +32,7 @@ public class setUpTestEnvironment {
         options.setProfile(profile);
         driver=new FirefoxDriver(options);
         js=(JavascriptExecutor)driver;
-        wait1 = new WebDriverWait(driver, Duration.ofSeconds(30));
+        wait1 = new WebDriverWait(driver, Duration.ofSeconds(40));
         driver.manage().window().maximize();
 //        ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 //        driver.switchTo().window(tabs.get(0));
