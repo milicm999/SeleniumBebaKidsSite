@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8a179258-a85a-45b0-a167-515e44e735d1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestingBebaKids.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestingBebaKids.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setUpTestEnvironment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setUpTestEnvironment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +43,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/milicm/IdeaProjects/SeleniumBebaKidsSite",
+    "last_opened_file_path": "C:/Users/milicm/IdeaProjects/SeleniumMaven",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TestingBebaKids.testShopingCard">
+  <component name="RunManager" selected="TestNG.TestingBebaKids.testLogIn">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="SeleniumBebaKidsSite" />
@@ -109,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestingBebaKids.testShopingCard" />
         <item itemvalue="TestNG.TestingBebaKids.testLogIn" />
+        <item itemvalue="TestNG.TestingBebaKids.testShopingCard" />
         <item itemvalue="TestNG.TestingBebaKids.testCart" />
         <item itemvalue="TestNG.TestingBebaKids" />
         <item itemvalue="Application.Main" />
